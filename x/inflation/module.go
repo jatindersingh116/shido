@@ -35,9 +35,9 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/evmos/evmos/v11/x/inflation/client/cli"
-	"github.com/evmos/evmos/v11/x/inflation/keeper"
-	"github.com/evmos/evmos/v11/x/inflation/types"
+	"github.com/shido/shidoNetwork/x/inflation/client/cli"
+	"github.com/shido/shidoNetwork/x/inflation/keeper"
+	"github.com/shido/shidoNetwork/x/inflation/types"
 )
 
 // type check to ensure the interface is properly implemented

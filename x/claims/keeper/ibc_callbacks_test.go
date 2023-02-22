@@ -15,7 +15,7 @@ import (
 	ibcgotesting "github.com/cosmos/ibc-go/v6/testing"
 	ibcmock "github.com/cosmos/ibc-go/v6/testing/mock"
 
-	"github.com/evmos/evmos/v11/x/claims/types"
+	"github.com/shido/shidoNetwork/x/claims/types"
 )
 
 var timeoutHeight = clienttypes.NewHeight(1000, 1000)

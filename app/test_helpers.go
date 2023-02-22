@@ -36,13 +36,13 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	claimstypes "github.com/evmos/evmos/v11/x/claims/types"
+	claimstypes "github.com/shido/shidoNetwork/x/claims/types"
 
 	"github.com/evmos/ethermint/encoding"
 	feemarkettypes "github.com/evmos/ethermint/x/feemarket/types"
 
-	"github.com/evmos/evmos/v11/cmd/config"
-	"github.com/evmos/evmos/v11/types"
+	"github.com/shido/shidoNetwork/cmd/config"
+	"github.com/shido/shidoNetwork/types"
 )
 
 func init() {

@@ -44,7 +44,7 @@ import (
 	errorsmod "cosmossdk.io/errors"
 	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/evmos/evmos/v11/types"
+	"github.com/shido/shidoNetwork/types"
 )
 
 // CreateUpgradeHandler creates an SDK upgrade handler for v11

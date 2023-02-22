@@ -43,19 +43,19 @@ import (
 	evm "github.com/evmos/ethermint/x/evm/types"
 	feemarkettypes "github.com/evmos/ethermint/x/feemarket/types"
 
-	"github.com/evmos/evmos/v11/app"
-	"github.com/evmos/evmos/v11/contracts"
-	ibctesting "github.com/evmos/evmos/v11/ibc/testing"
-	claimstypes "github.com/evmos/evmos/v11/x/claims/types"
-	"github.com/evmos/evmos/v11/x/erc20/types"
-	inflationtypes "github.com/evmos/evmos/v11/x/inflation/types"
+	"github.com/shido/shidoNetwork/app"
+	"github.com/shido/shidoNetwork/contracts"
+	ibctesting "github.com/shido/shidoNetwork/ibc/testing"
+	claimstypes "github.com/shido/shidoNetwork/x/claims/types"
+	"github.com/shido/shidoNetwork/x/erc20/types"
+	inflationtypes "github.com/shido/shidoNetwork/x/inflation/types"
 
 	transfertypes "github.com/cosmos/ibc-go/v6/modules/apps/transfer/types"
 	clienttypes "github.com/cosmos/ibc-go/v6/modules/core/02-client/types"
 	channeltypes "github.com/cosmos/ibc-go/v6/modules/core/04-channel/types"
 	ibcgotesting "github.com/cosmos/ibc-go/v6/testing"
 	ibcgotestinghelpers "github.com/cosmos/ibc-go/v6/testing/simapp/helpers"
-	teststypes "github.com/evmos/evmos/v11/types/tests"
+	teststypes "github.com/shido/shidoNetwork/types/tests"
 )
 
 type KeeperTestSuite struct {

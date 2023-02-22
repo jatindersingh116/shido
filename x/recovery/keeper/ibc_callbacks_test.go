@@ -10,7 +10,7 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	"github.com/evmos/ethermint/crypto/ethsecp256k1"
 	"github.com/evmos/ethermint/tests"
-	"github.com/evmos/evmos/v11/testutil"
+	"github.com/shido/shidoNetwork/testutil"
 	"github.com/stretchr/testify/mock"
 
 	transfertypes "github.com/cosmos/ibc-go/v6/modules/apps/transfer/types"
@@ -19,11 +19,11 @@ import (
 	ibcgotesting "github.com/cosmos/ibc-go/v6/testing"
 	ibcmock "github.com/cosmos/ibc-go/v6/testing/mock"
 
-	claimstypes "github.com/evmos/evmos/v11/x/claims/types"
-	incentivestypes "github.com/evmos/evmos/v11/x/incentives/types"
-	"github.com/evmos/evmos/v11/x/recovery/keeper"
-	"github.com/evmos/evmos/v11/x/recovery/types"
-	vestingtypes "github.com/evmos/evmos/v11/x/vesting/types"
+	claimstypes "github.com/shido/shidoNetwork/x/claims/types"
+	incentivestypes "github.com/shido/shidoNetwork/x/incentives/types"
+	"github.com/shido/shidoNetwork/x/recovery/keeper"
+	"github.com/shido/shidoNetwork/x/recovery/types"
+	vestingtypes "github.com/shido/shidoNetwork/x/vesting/types"
 )
 
 func (suite *KeeperTestSuite) TestOnRecvPacket() {

@@ -9,8 +9,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
 	"github.com/stretchr/testify/require"
 
-	"github.com/evmos/evmos/v11/app"
-	shidod "github.com/evmos/evmos/v11/cmd/shidod"
+	"github.com/shido/shidoNetwork/app"
+	shidod "github.com/shido/shidoNetwork/cmd/shidod"
 )
 
 func TestInitCmd(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/evmos/evmos/v11/tests/e2e/upgrade"
+	"github.com/shido/shidoNetwork/tests/e2e/upgrade"
 )
 
 // upgradesPath is the relative path from this file to the app/upgrades folder

@@ -65,7 +65,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/genutil"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	"github.com/evmos/ethermint/crypto/hd"
-	"github.com/evmos/evmos/v11/app"
+	"github.com/shido/shidoNetwork/app"
 
 	"github.com/evmos/ethermint/encoding"
 	"github.com/evmos/ethermint/server/config"
@@ -124,9 +124,9 @@ func DefaultConfig() Config {
 		AppConstructor:    NewAppConstructor(encCfg),
 		GenesisState:      app.ModuleBasics.DefaultGenesis(encCfg.Codec),
 		TimeoutCommit:     2 * time.Second,
-		ChainID:           fmt.Sprintf("evmos_%d-1", tmrand.Int63n(9999999999999)+1),
+		ChainID:           fmt.Sprintf("shido_%d-1", tmrand.Int63n(9999999999999)+1),
 		NumValidators:     4,
-		BondDenom:         "aevmos",
+		BondDenom:         "ashido",
 		MinGasPrices:      fmt.Sprintf("0.000006%s", ethermint.AttoPhoton),
 		AccountTokens:     sdk.TokensFromConsensusPower(1000000000000000000, ethermint.PowerReduction),
 		StakingTokens:     sdk.TokensFromConsensusPower(500000000000000000, ethermint.PowerReduction),

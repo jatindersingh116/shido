@@ -10,8 +10,8 @@ import (
 	sdkvesting "github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
 
 	"github.com/evmos/ethermint/tests"
-	"github.com/evmos/evmos/v11/testutil"
-	"github.com/evmos/evmos/v11/x/vesting/types"
+	"github.com/shido/shidoNetwork/testutil"
+	"github.com/shido/shidoNetwork/x/vesting/types"
 )
 
 var (

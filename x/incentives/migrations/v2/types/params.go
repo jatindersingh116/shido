@@ -22,9 +22,9 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
-	"github.com/evmos/evmos/v11/x/incentives/types"
+	"github.com/shido/shidoNetwork/x/incentives/types"
 
-	epochstypes "github.com/evmos/evmos/v11/x/epochs/types"
+	epochstypes "github.com/shido/shidoNetwork/x/epochs/types"
 )
 
 var _ types.LegacyParams = &V2Params{}

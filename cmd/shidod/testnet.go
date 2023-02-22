@@ -60,9 +60,9 @@ import (
 	ethermint "github.com/evmos/ethermint/types"
 	evmtypes "github.com/evmos/ethermint/x/evm/types"
 
-	cmdcfg "github.com/evmos/evmos/v11/cmd/config"
-	evmoskr "github.com/evmos/evmos/v11/crypto/keyring"
-	"github.com/evmos/evmos/v11/testutil/network"
+	cmdcfg "github.com/shido/shidoNetwork/cmd/config"
+	evmoskr "github.com/shido/shidoNetwork/crypto/keyring"
+	"github.com/shido/shidoNetwork/testutil/network"
 )
 
 var (

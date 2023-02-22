@@ -39,10 +39,10 @@ import (
 	ethermint "github.com/evmos/ethermint/types"
 	evmtypes "github.com/evmos/ethermint/x/evm/types"
 
-	shidokr "github.com/evmos/evmos/v11/crypto/keyring"
+	shidokr "github.com/shido/shidoNetwork/crypto/keyring"
 
-	vestingcli "github.com/evmos/evmos/v11/x/vesting/client/cli"
-	vestingtypes "github.com/evmos/evmos/v11/x/vesting/types"
+	vestingcli "github.com/shido/shidoNetwork/x/vesting/client/cli"
+	vestingtypes "github.com/shido/shidoNetwork/x/vesting/types"
 )
 
 const (

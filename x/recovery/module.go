@@ -35,9 +35,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	"github.com/evmos/evmos/v11/x/recovery/client/cli"
-	"github.com/evmos/evmos/v11/x/recovery/keeper"
-	"github.com/evmos/evmos/v11/x/recovery/types"
+	"github.com/shido/shidoNetwork/x/recovery/client/cli"
+	"github.com/shido/shidoNetwork/x/recovery/keeper"
+	"github.com/shido/shidoNetwork/x/recovery/types"
 )
 
 // type check to ensure the interface is properly implemented

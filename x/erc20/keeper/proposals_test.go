@@ -15,9 +15,9 @@ import (
 	"github.com/evmos/ethermint/tests"
 	evmtypes "github.com/evmos/ethermint/x/evm/types"
 
-	"github.com/evmos/evmos/v11/x/erc20/keeper"
-	"github.com/evmos/evmos/v11/x/erc20/types"
-	inflationtypes "github.com/evmos/evmos/v11/x/inflation/types"
+	"github.com/shido/shidoNetwork/x/erc20/keeper"
+	"github.com/shido/shidoNetwork/x/erc20/types"
+	inflationtypes "github.com/shido/shidoNetwork/x/inflation/types"
 )
 
 const (

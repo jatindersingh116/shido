@@ -8,10 +8,10 @@ import (
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 	"github.com/evmos/ethermint/encoding"
-	"github.com/evmos/evmos/v11/app"
-	inflationkeeper "github.com/evmos/evmos/v11/x/inflation/keeper"
-	v2types "github.com/evmos/evmos/v11/x/inflation/migrations/v2/types"
-	"github.com/evmos/evmos/v11/x/inflation/types"
+	"github.com/shido/shidoNetwork/app"
+	inflationkeeper "github.com/shido/shidoNetwork/x/inflation/keeper"
+	v2types "github.com/shido/shidoNetwork/x/inflation/migrations/v2/types"
+	"github.com/shido/shidoNetwork/x/inflation/types"
 )
 
 type mockSubspace struct {

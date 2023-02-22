@@ -12,9 +12,9 @@ import (
 	"github.com/evmos/ethermint/crypto/hd"
 	"github.com/evmos/ethermint/encoding"
 	"github.com/evmos/ethermint/tests"
-	"github.com/evmos/evmos/v11/app"
-	"github.com/evmos/evmos/v11/tests/integration/ledger/mocks"
-	"github.com/evmos/evmos/v11/testutil"
+	"github.com/shido/shidoNetwork/app"
+	"github.com/shido/shidoNetwork/tests/integration/ledger/mocks"
+	"github.com/shido/shidoNetwork/testutil"
 
 	"github.com/spf13/cobra"
 

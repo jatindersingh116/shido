@@ -20,8 +20,8 @@ import (
 	dbm "github.com/tendermint/tm-db"
 
 	"github.com/evmos/ethermint/encoding"
-	"github.com/evmos/evmos/v11/types"
-	claimstypes "github.com/evmos/evmos/v11/x/claims/types"
+	"github.com/shido/shidoNetwork/types"
+	claimstypes "github.com/shido/shidoNetwork/x/claims/types"
 )
 
 func TestEvmosExport(t *testing.T) {

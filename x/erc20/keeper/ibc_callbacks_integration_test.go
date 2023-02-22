@@ -12,12 +12,12 @@ import (
 	channeltypes "github.com/cosmos/ibc-go/v6/modules/core/04-channel/types"
 	"github.com/cosmos/ibc-go/v6/testing/simapp"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/evmos/evmos/v11/contracts"
-	"github.com/evmos/evmos/v11/testutil"
-	teststypes "github.com/evmos/evmos/v11/types/tests"
-	claimstypes "github.com/evmos/evmos/v11/x/claims/types"
-	"github.com/evmos/evmos/v11/x/erc20/types"
 	. "github.com/onsi/ginkgo/v2"
+	"github.com/shido/shidoNetwork/contracts"
+	"github.com/shido/shidoNetwork/testutil"
+	teststypes "github.com/shido/shidoNetwork/types/tests"
+	claimstypes "github.com/shido/shidoNetwork/x/claims/types"
+	"github.com/shido/shidoNetwork/x/erc20/types"
 )
 
 var _ = Describe("Convert receiving IBC to Erc20", Ordered, func() {

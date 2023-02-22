@@ -15,9 +15,9 @@ import (
 	"github.com/evmos/ethermint/tests"
 	feemarkettypes "github.com/evmos/ethermint/x/feemarket/types"
 
-	"github.com/evmos/evmos/v11/app"
-	"github.com/evmos/evmos/v11/x/revenue"
-	"github.com/evmos/evmos/v11/x/revenue/types"
+	"github.com/shido/shidoNetwork/app"
+	"github.com/shido/shidoNetwork/x/revenue"
+	"github.com/shido/shidoNetwork/x/revenue/types"
 )
 
 type GenesisTestSuite struct {

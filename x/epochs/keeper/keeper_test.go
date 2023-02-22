@@ -19,8 +19,8 @@ import (
 
 	evm "github.com/evmos/ethermint/x/evm/types"
 
-	"github.com/evmos/evmos/v11/app"
-	"github.com/evmos/evmos/v11/x/epochs/types"
+	"github.com/shido/shidoNetwork/app"
+	"github.com/shido/shidoNetwork/x/epochs/types"
 )
 
 type KeeperTestSuite struct {
